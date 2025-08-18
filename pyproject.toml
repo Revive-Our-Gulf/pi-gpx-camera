@@ -16,12 +16,12 @@ classifiers = [
 ]
 keywords = ["detector"]
 dependencies = [
-    "tornado",
-    "requests",
-    "gpxpy",
-    "pymavlink",
-    "opencv-python-headless",
-    "simplejpeg",
+    "tornado==65",
+    "requests==2.32.3",
+    "gpxpy==1.6.2",
+    "pymavlink==2.4.43",
+    "opencv-python-headless==4.11.0.86",
+    "simplejpeg==1.7.2",
     "netifaces",
     ]
 
